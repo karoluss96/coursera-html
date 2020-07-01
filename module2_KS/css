@@ -2,6 +2,23 @@ body {
 border: 2px;
 padding: 10px 10px 10px 10px;
 }
+p {
+	width: 500px;
+	text-align: center;
+	position: relative;
+	top:20px
+	right: -40px;
+}
+#p1{
+	background-color: #abcdef;
+}
+#p2{
+	background-color: #012345;
+}
+#p3{
+	background-color: #678901;
+}
+
 @media(min-width: 993px){
 #media{
 	text-align: right;
