@@ -1,1 +1,17 @@
-
+body {
+border: 2px;
+padding: 10px 10px 10px 10px;
+}
+@media(min-width: 993px){
+#media{
+	text-align: right;
+	width: 80%
+	color: #123456;
+	}
+}
+@media(min-width: 768px) and (max-width: 992px){
+	#media{
+		text-align: left;
+		width: 50%
+		color:#ffffff;
+	}
