@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 5px;
+}
+#heading{
+	text-align: center;
+}
+div{
+	display: block;
+	width: 100%;
+}
+section{
+	background-color: #aaaaaa;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: relative;
+	width: 30%;
+  	font-family: Helvetica;
+}
+
+
+section > h1{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid green;
+}
+
+#mediap1{
+	color: pink;
+	background-color: #234567;
+}	
+
+#mediap2{
+	color: red;
+	background-color: #345678;
+}
+#mediap3{
+	color: orange;
+	background-color: #567890;
+}
+section >p {
+	margin-top: 30px;
+}
+@media(min-width: 992px){
+	section:nth-child(1){
+  		float:left;
+  		height: 250px;
+  		margin:10px;
+  	}
+  	section:nth-child(2){
+  		float:left;
+  		height: 250px;
+  		margin:10px;
+  	}
+  section:nth-child(3){
+  		float:left;
+  		height: 250px;
+  		margin:10px;	
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	section:nth-child(1){
+  		float:left;
+  		width: 48%;
+  }
+  section:nth-child(2){
+  		float:right;
+  		width: 48%;
+  }
+  section:nth-child(3){
+ 		float:left;
+  		width: 100%;
+  		margin-top:10px;
+	}
+}
+@media (max-width: 767px){
+	section:nth-child(1){
+  		margin-top:10px;
+  		width: 100%
+	}
+	section:nth-child(2){
+  		margin-top:10px;
+  		width: 100%
+	}
+	section:nth-child(3){
+  		margin-top:10px;
+  		width: 100%
+	}
+
+}
