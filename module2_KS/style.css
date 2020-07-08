@@ -1,125 +1,94 @@
-h1 {
-	text-align: center;
-	margin-bottom: 20px;
-}
+
 *{
-	box-sizing: border-box;
-	margin: 5px;
-	padding: 0;
+	margin: 0;
+	padding: 5px;
 }
-p{
-	
+#heading{
+	text-align: center;
+}
+div{
+	display: block;
+	width: 100%;
+}
+section{
+	background-color: #aaaaaa;
+	box-sizing: border-box;
 	border: 1px solid black;
-	margin-right: auto;
- 	margin-left: 5px;
+	position: relative;
+	width: 30%;
   	font-family: Helvetica;
 }
-.row {
-	width: 100%;	
+
+
+section > h1{
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid green;
 }
-#PanTadeusz {
-		float: left;
-		border: 1px solid black;
-		text-align: left;
-		background-color: #aaaaaa;
-		color: #123456;
-		position: relative;
-		overflow: auto;
-		height:100px;
-		text-align: center;
-		padding: 10px;
-	}
 
 #mediap1{
-	height: 25px;
-	float: right;
-	text-align: center;
 	color: pink;
 	background-color: #234567;
-	position:absolute;
-	overflow: hidden;
-	}
+}	
+
 #mediap2{
-	height: 25px;
-	float: right;
-	text-align: center;
 	color: red;
 	background-color: #345678;
-	position:absolute;
-	overflow: hidden;
 }
 #mediap3{
-	height: 25px;
-	float: right;
-	text-align: center;
 	color: orange;
 	background-color: #567890;
-	position:absolute;
-	overflow: hidden;
 }
-
-@media(min-width: 993px){
-	#PanTadeusz{
-		width: 30.0%
-	}
-
-	#mediap1{
-		width: 7.5%;
-		top:9.5%;
-		left:23.5%;
-	}
-	#mediap2{
-		width: 7.5%;
-		top: 9.5%;
-		left:53.25%;
-	}
-	#mediap3{
-		width: 7.5%;
-		top:9.5%;
-		left:83%;
-	}	
+section >p {
+	margin-top: 30px;
 }
-@media(min-width: 768px) and (max-width: 992px){
-	#PanTadeusz{
-		width: 45%;
+@media(min-width: 992px){
+	section:nth-child(1){
+  		float:left;
+  		height: 250px;
+  		margin:10px;
+  	}
+  	section:nth-child(2){
+  		float:left;
+  		height: 250px;
+  		margin:10px;
+  	}
+  section:nth-child(3){
+  		float:left;
+  		height: 250px;
+  		margin:10px;	
 	}
-
-	#mediap1{
-		width: 7.5%;
-		top:9.5%;
-		left:38.25%;
-	}
-	#mediap2{
-		width: 7.5%;
-		top:9.5%;
-		left:82.5%;
-	}
-	#mediap3{
-		width: 7.5%;
-		top:25%;
-		left:38.25%;
+}
+@media(min-width: 768px) and (max-width: 991px){
+	section:nth-child(1){
+  		float:left;
+  		width: 48%;
+  }
+  section:nth-child(2){
+  		float:right;
+  		width: 48%;
+  }
+  section:nth-child(3){
+ 		float:left;
+  		width: 100%;
+  		margin-top:10px;
 	}
 }
 
 @media (max-width: 767px){
-	#PanTadeusz{
-		width: 90%
+	section:nth-child(1){
+  		margin-top:10px;
+  		width: 100%
 	}
-
-	#mediap1{
-		width: 7.5%;
-		top:9.5%;
-		left:81.5%;
+	section:nth-child(2){
+  		margin-top:10px;
+  		width: 100%
 	}
-	#mediap2{
-		width: 7.5%;
-		top:25%;
-		left:81.5%;
-	}
-	#mediap3{
-		width: 7.5%;
-		top:40.5%;
-		left:81.5%;
+	section:nth-child(3){
+  		margin-top:10px;
+  		width: 100%
 	}
 
 }
