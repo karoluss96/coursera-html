@@ -13,7 +13,7 @@
 #heading{
 	text-align: center
 }
-.navbar-brand .navbar-nav li a {
+.navbar-brand .navbar-nav {
     line-height: 76px;
     height: 76px;
 	padding-top: 25px;
