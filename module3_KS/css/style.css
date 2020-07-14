@@ -64,31 +64,7 @@ div{
 	font-weight: bold;
 	margin-bottom: 1em;
 }
-section{
-	background-color: #aaaaaa;
-	box-sizing: border-box;
-	border: 1px solid black;
-	position: relative;
-  	font-family: Helvetica;
-  	height: 80%;
-}
 
-section > h1{
-	text-align: center;
-	font-weight:  bold;
-	position: absolute;
-	top: 0;
-	right: 0;
-	border: 1px solid green;
-}
-
-section > span{
-	text-align: center;
-  	font-weight: bold;
-}	
-section >p {
-	margin-top: 30px;
-}
 @media(min-width: 992px){
 	.container .jumbotrom{
 		height: 675px;
