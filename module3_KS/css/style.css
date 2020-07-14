@@ -10,8 +10,11 @@
 	padding-bottom: 5px;
 	margin-top: 20px;
 }
-#heading{
+#navbar-header{
 	text-align: center
+}
+#heading{
+background-color:gray;
 }
 .navbar-brand .navbar-nav {
     line-height: 76px;
