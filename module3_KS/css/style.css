@@ -16,7 +16,7 @@
 #heading{
 	background-color:gray;
 }
-.navbar-brand .navbar-nav {
+.navbar-brand .navbar-nav li a {
     line-height: 76px;
     height: 76px;
 	padding-top: 25px;
@@ -77,6 +77,22 @@ section{
 	position: relative;
   	font-family: Helvetica;
   	height: 80%;
+}
+section > h1{
+	text-align: center;
+	font-weight:  bold;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid green;
+}
+
+section > span{
+	text-align: center;
+  	font-weight: bold;
+}	
+section >p {
+	margin-top: 30px;
 }
 
 @media(min-width: 992px){
