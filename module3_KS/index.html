@@ -5,31 +5,32 @@
 	<meta name= "viewport" content="width=device-width, initial-scale=1">
 	<title>Assignment Solution for Module 3</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 	<header>
 <nav id="header-nav" class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Food,LLC</a>
+      <a class="navbar-brand" href="#"><h1>Food,LLC</h1></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>
     <span class="sr-only">Toggle navigation</span>
      <span class="icon-bar"></span>
      <span class="icon-bar"></span>
      <span class="icon-bar"></span>
       </button>
-    <div id="collapsable-nav" class="collapse navbar-collapse">
-      <ul id="nav-list" class="nav navbar-nav">
-        <li class="visible-xs">
-             <li><span>Chicken</span></li>
-            <li><span>Beef</span></li>
-            <li><span>Sushi</span></li>
+    <div id="collapsable-nav" class="collapse navbar-collapse" ria-expanded="false">
+      <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+        <li>
+             <li>
+             	<a href="#chicken-tile"><br class="hidden-xs"> <span>Chicken</span></a></li>
+            <li><a href="#beef-tile"><br class="hidden-xs"> <span>Beef</span></a></li>
+            <li><a href="#sushi-tile"><br class="hidden-xs"> <span>Sushi</span></a></li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -37,28 +38,37 @@
 </nav>
 </header>
 
-	<h1 id="#heading"> Our Menu</h1>
-	<div id="xs-deliver" class="text-center visible-xs"></div>
-  <div id="main-content" class="container">
-	<section class="row">
+ <div id="main-content" class="container">
+	<h1 id="#heading" class="text-center"> Our Menu</h1>
+	<div id="home-tiles" class="row">
 	<div class="col-md-4 col-sm-6 col-xs-12">
-	<div id="menu-tile"><span>Chcicken</span>
-	<div class="PanTadeusz">Litwo Ojczyzno moja, ty jestes jak zdrowie, Ile cie tylko cenic, ten Tylko sie dowie, kto cie stracil. Dzis piękno twą w calej ozdobie, Widze i opisuje, bo tesknie po tobie. Panno Swieta co jasnej bronisz Czestochowy, I  w Ostrej Swiecisz Bramie. Ty, co grod zamkowy, Nowogrodzkich ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powrocilas cudem.</div>
-</div>
-</div>
-	<div class="col-md-4 col-sm-6 col-xs-12">
-		<div id="specials-tile"><span>Beef</span>
-		<div class="PanTadeusz">Litwo Ojczyzno moja, ty jestes jak zdrowie, Ile cie tylko cenic, ten Tylko sie dowie, kto cie stracil. Dzis piękno twą w calej ozdobie, Widze i opisuje, bo tesknie po tobie. Panno Swieta co jasnej bronisz Czestochowy, I  w Ostrej Swiecisz Bramie. Ty, co grod zamkowy, Nowogrodzkich ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powrocilas cudem.</div>
+	<div id="menu1-tile">
+	<section>
+		<h2 class="text-center"><span>Chcicken</span></h2>
+	<p>Litwo Ojczyzno moja, ty jestes jak zdrowie, Ile cie tylko cenic, ten Tylko sie dowie, kto cie stracil. Dzis piękno twą w calej ozdobie, Widze i opisuje, bo tesknie po tobie. Panno Swieta co jasnej bronisz Czestochowy, I  w Ostrej Swiecisz Bramie. Ty, co grod zamkowy, Nowogrodzkich ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powrocilas cudem.</p>
+	<p>(koniec sekcji 1) <a href="#top-heading">powrot na gore</a></p>
+</section>
 </div>
 </div>
 	<div class="col-md-4 col-sm-6 col-xs-12">
-		<div id="specials-tile"><span>Sushi</span>
-			<div class="PanTadeusz">Litwo Ojczyzno moja, ty jestes jak zdrowie, Ile cie tylko cenic, ten Tylko sie dowie, kto cie stracil. Dzis piękno twą w calej ozdobie, Widze i opisuje, bo tesknie po tobie. Panno Swieta co jasnej bronisz Czestochowy, I  w Ostrej Swiecisz Bramie. Ty, co grod zamkowy, Nowogrodzkich ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powrocilas cudem.</div>
+	<div id="menu2-tile">
+	<section>
+		<h2 class="text-center"><span>Beef</span></h2> <p>Litwo Ojczyzno moja, ty jestes jak zdrowie, Ile cie tylko cenic, ten Tylko sie dowie, kto cie stracil. Dzis piękno twą w calej ozdobie, Widze i opisuje, bo tesknie po tobie. Panno Swieta co jasnej bronisz Czestochowy, I  w Ostrej Swiecisz Bramie. Ty, co grod zamkowy, Nowogrodzkich ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powrocilas cudem.</p>
+	<p>(koniec sekcji 2) <a href="#top-heading">Back to Top</a></p>
+    </section>
+    </div>
+    </div>
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<div id="menu3-tile">
+	<section>
+		<h2 class="text-center"><span>Sushi</span></h2>
+			<p>Litwo Ojczyzno moja, ty jestes jak zdrowie, Ile cie tylko cenic, ten Tylko sie dowie, kto cie stracil. Dzis piękno twą w calej ozdobie, Widze i opisuje, bo tesknie po tobie. Panno Swieta co jasnej bronisz Czestochowy, I  w Ostrej Swiecisz Bramie. Ty, co grod zamkowy, Nowogrodzkich ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powrocilas cudem.</p>
+			 <p>(koniec sekcji 3) <a href="#top-heading">powrot na gore</a></p>
 		</div>
 	</div>
 </section> 
 </div><!--end of main-->
-		
+	 <div class="clearfix visible-lg-block"></div>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
