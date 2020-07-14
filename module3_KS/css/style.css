@@ -70,8 +70,13 @@ div{
 	font-weight: bold;
 	margin-bottom: 1em;
 }
-#menu1-tile #menu2-tile #menu3-tile{
-	  background-color: #aaaaaa;
+section{
+	background-color: #aaaaaa;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: relative;
+  	font-family: Helvetica;
+  	height: 80%;
 }
 
 @media(min-width: 992px){
