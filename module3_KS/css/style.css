@@ -7,16 +7,20 @@
 	background-color: #a1b2c3;
 	border-radius: 0;
 	border: 0;
+	padding-bottom: 5px;
+	margin-top: 20px;
 }
 #heading{
 	text-align: center
 }
-#navbar-brand{
+.navbar-brand .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
 	padding-top: 25px;
 	color: #abcdef;
 }
-#navbar-brand h1 {
-	color: black;
+.navbar-brand h1 {
+	color: #f9e8d7;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -24,17 +28,20 @@
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.navbar-brand p{
-	color: #000;
-	text-transform: uppercase;
-	font-size: .7em;
-	margin-top: 15px;
-}
-.navbar-brand p span{
-	vertical-align: middle;
-}
+
 #nav-list{
+	background-color: #c6b5a4;
 	margin-top: 10px;
+}
+#nav-list a {
+    font-weight: bolder;
+    color: #828282;
+    font-size: 1.0em;
+}
+
+#nav-list a:hover {
+    color: #818181;
+    background-color: #3c2b1a;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid #61122f; 
@@ -47,12 +54,18 @@ div{
 	display: block;
 	width: 100%;
 }
-h1{
-	font-weight: bold;
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
 }
-#PanTadeusz{
-	background-color: gray;
-	text-align: justify;
+h1{
+	margin-top: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+h2{
+	font-weight: bold;
+	margin-bottom: 1em;
 }
 section{
 	background-color: #aaaaaa;
