@@ -7,7 +7,7 @@
 // the "speak" method and which you will expose to the global context
 // See Lecture 52, part 1
 var helloSpeaker = {};
- helloSpeaker.name= names; 
+ helloSpeaker.name= ["Yaakov", "Paul", "Frank", "Larry", "Paula", "Laura"]; 
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
 var speakWord = "Hello";
